@@ -1,10 +1,10 @@
 # probe
 
-probe is a simple tool to list containers once docker ps hang due to
-a container stuck on staring or stopping.
+`probe` is a simple tool to list containers once docker ps hang due to
+a container stuck on starting or stopping.
 
-probe need to root access to root of docker runtime.
-The dafault root is `/var/run/docker` and use `-r` to 
+`probe` need to root access to root of docker runtime.
+The default root is `/var/run/docker` and use `-r` to 
 specify a custom one. probe display the running container
 by default and use `-a` to display all the containers.
 
