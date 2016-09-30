@@ -8,6 +8,11 @@ The dafault root is `/var/run/docker` and use `-r` to
 specify a custom one. probe display the running container
 by default and use `-a` to display all the containers.
 
+Build:
+````
+go build
+````
+
 Usage:
 ````
 Usage of probe:
